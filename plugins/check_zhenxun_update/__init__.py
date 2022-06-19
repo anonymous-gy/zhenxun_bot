@@ -37,7 +37,7 @@ __plugin_configs__ = {
     }
 }
 
-update_zhenxun = on_command("检查更新真寻", permission=SUPERUSER, priority=1, block=True)
+update_zhenxun = on_command("检查更新真寻", permission=SUPERUSER, priority=9, block=True)
 
 restart = on_command(
     "重启",
